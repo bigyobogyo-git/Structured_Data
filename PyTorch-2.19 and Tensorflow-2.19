@@ -1,0 +1,23 @@
+$ pip install torch 
+
+this reverts to tensorflow 2.19
+
+$ pip list | grep cuda
+
+jax-cuda12-pjrt              0.6.2
+jax-cuda12-plugin            0.6.2
+nvidia-cuda-cupti-cu12       12.8.90
+nvidia-cuda-nvcc-cu12        12.5.82
+nvidia-cuda-nvrtc-cu12       12.8.93
+nvidia-cuda-runtime-cu12     12.8.90
+
+$ pip list | grep tensorflow
+
+tensorflow                   2.19.1
+tensorflow-io-gcs-filesystem 0.37.1
+tensorflow-text              2.19.0
+
+pip list | grep torch
+
+torch                        2.9.0
+
